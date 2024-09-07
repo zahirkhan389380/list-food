@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food List</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="index2.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>FOOD DONATION PLATFORM LEH</h1>
+            <ul>
+                <li><a href="../HOTEL FORM/index.html">Donate Food</a></li>
+                <li><a href="../complain/index.html">Complain</a></li>
+                <li><a href="../HOME/pr.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>LIST OF FOOD ITEMS</h2>
+        <table id="foodListTable">
+            <thead>
+                <tr>
+                    <th>Hotel Name
+                        <input type="search" id="hotelSearch" placeholder="Search hotel name">
+                        <button id="hotelSearchBtn">Search</button>
+                    </th>
+                    <th>Food Description
+                        <input type="search" id="foodSearch" placeholder="Search food">
+                        <button id="foodSearchBtn">Search</button>
+                    </th>
+                    <th>Phone
+                        <input type="search" id="phoneSearch" placeholder="Search Phone">
+                        <button id="phoneSearchBtn">Search</button>
+                    </th>
+                    <th>Address
+                        <input type="search" id="addressSearch" placeholder="Search address">
+                        <button id="addressSearchBtn">Search</button>
+                    </th>
+                    <th>Email
+                        <input type="search" id="emailSearch" placeholder="Search email">
+                        <button id="emailSearchBtn">Search</button>
+                    </th>
+                    <th>Datetime
+                        <input type="search" id="datetimeSearch" placeholder="Search date">
+                        <button id="datetimeSearchBtn">Search</button>
+                    </th> 
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="foodList"></tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Our mission is to facilitate the donation of food items to those in need, helping to reduce food waste and hunger.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Donate Food. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
